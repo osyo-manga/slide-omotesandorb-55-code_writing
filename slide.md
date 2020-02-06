@@ -27,6 +27,7 @@
 * ActiveRecord を拡張してパターンマッチで利用できるようにする             <!-- .element: class="fragment" -->
   * 最終的には gem 化する
 * それまでの過程を簡単に解説             <!-- .element: class="fragment" -->
+  * 詰まった場合にどう対処するかなどなど
 
 ---
 
