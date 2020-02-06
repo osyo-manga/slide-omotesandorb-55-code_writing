@@ -74,7 +74,7 @@ def check(user)
   case user
   in name:, age: (..20)
     "OK : #{name}"
-  in name:, age: (20..)
+  in name:, age: (21..)
     "NG : #{name}"
   else
     "???"
@@ -305,9 +305,9 @@ user = User.create name: "homu", age: 14
 case user
 in age: (..10)
   p "A"
-in age: (10..20)
+in age: (11..20)
   p "B"
-in age: (20..)
+in age: (21..)
   p "C"
 end
 # => "B"
